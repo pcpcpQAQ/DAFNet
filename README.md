@@ -63,7 +63,7 @@ python setup.py develop --no_cuda_ext
     python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr/train.py -opt options/train/Derain/DAFNet-width32.yml --launcher pytorch
     ```
 
-* Evaluation
+* Evaluation:
     * SIDD Dataset:
     ```
     python -m torch.distributed.launch --nproc_per_node=1 --master_port=4321 basicsr/test.py -opt ./options/test/SIDD/DAFNet-width32.yml --launcher pytorch
