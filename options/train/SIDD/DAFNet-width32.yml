@@ -1,4 +1,4 @@
-name: NDANet-SIDD
+name: DAFNet-SIDD
 model_type: ImageRestorationModel
 scale: 1
 num_gpu: 1
