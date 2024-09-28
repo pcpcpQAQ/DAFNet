@@ -17,9 +17,9 @@ This implementation based on [BasicSR](https://github.com/xinntao/BasicSR) which
 |NAFNet-Rain13K|Test2800|32.49|0.940|
 
 ```python
-python 3.9.5
-pytorch 1.11.0
-cuda 11.3
+python 3.7.13
+pytorch 1.12.1
+cuda 11.7
 ```
 
 ```
