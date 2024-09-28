@@ -1,4 +1,4 @@
-name: NDANet-Derain
+name: DAFNet-Derain
 model_type: ImageRestorationModel
 scale: 1
 num_gpu: 1
