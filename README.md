@@ -4,7 +4,7 @@ The official pytorch implementation of the paper **DAFNet: An Image Restoration 
 ### Installation
 This implementation based on [BasicSR](https://github.com/xinntao/BasicSR) which is a open source toolbox for image restoration tasks and [NAFNet](https://github.com/megvii-research/NAFNet) 
 
-### Results and Pre-trained Models
+### Image Restoration performace results
 
 | name | Dataset|PSNR|SSIM|
 |:----|:----|:----|:----|
