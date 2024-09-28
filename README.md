@@ -92,4 +92,4 @@ python setup.py develop --no_cuda_ext
     ```
     python -m torch.distributed.launch --nproc_per_node=1 --master_port=4321 basicsr/test.py -opt ./options/test/Derain/DAFNet-Rain2800.yml --launcher pytorch
     ```
-    * ```Image Deraining(Test100、Rain100L、Rain100H、Test2800)```: need ```./options/test/Derain/evaluate_PSNR_SSIM.m``` evalute PSNR and SSIM
+    * ```Image Deraining(Test100、Rain100L、Rain100H、Test2800)```: Using ```./options/test/Derain/evaluate_PSNR_SSIM.m``` evalute PSNR and SSIM
